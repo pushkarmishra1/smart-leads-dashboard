@@ -113,8 +113,6 @@ docker compose up --build
 cd backend
 cd frontend
 
-npm install
-npm run dev
 ---
 
 ## Environment Variables
