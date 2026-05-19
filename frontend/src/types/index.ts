@@ -68,6 +68,7 @@ export interface LeadFilters {
   status?: LeadStatus | '';
   source?: LeadSource | '';
   search?: string;
+  limit?: number;
   sort?: SortOrder;
   page?: number;
 }
