@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { verifyToken } from '../utils/jwt';
 import { sendError } from '../utils/response';
-import { AppError } from '../utils/AppError';
 import { UserRole } from '../types';
 
 /**
