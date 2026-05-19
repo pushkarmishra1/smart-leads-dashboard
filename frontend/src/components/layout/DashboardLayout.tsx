@@ -6,7 +6,6 @@ import {
   UserCircle,
   LogOut,
   Menu,
-  X,
   Moon,
   Sun,
   Zap,

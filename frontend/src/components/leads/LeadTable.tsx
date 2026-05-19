@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Pencil, Trash2, Eye, MoreVertical } from 'lucide-react';
+import { Pencil, Trash2, Eye, } from 'lucide-react';
 import { format } from 'date-fns';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
@@ -9,7 +9,6 @@ import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
 import { Lead, User } from '@/types';
 import { useDeleteLead } from '@/hooks/useLeads';
 import { useAuthStore } from '@/store/auth.store';
-import { cn } from '@/lib/cn';
 
 interface LeadTableProps {
   leads: Lead[];
