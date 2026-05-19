@@ -1,4 +1,6 @@
 # Smart Leads Dashboard
+Live Link-> smart-leads-dashboard-lfzt.vercel.app
+Git Repo-https://github.com/pushkarmishra1/smart-leads-dashboard
 
 A production-ready full-stack Lead Management Dashboard built with the **MERN stack** and **TypeScript**.
 
@@ -108,43 +110,11 @@ docker compose up --build
 ---
 
 ### Option B: Manual Local Setup
-
-#### Backend
-
-```bash
 cd backend
-
-# Install dependencies
-npm install
-
-# Set up environment
-cp .env.example .env
-# Edit .env — fill in MONGO_URI and JWT_SECRET
-
-# Start development server (hot reload)
-npm run dev
-
-# Backend runs at: http://localhost:5000
-```
-
-#### Frontend
-
-```bash
 cd frontend
 
-# Install dependencies
 npm install
-
-# Set up environment
-cp .env.example .env
-# Leave VITE_API_URL empty to use Vite proxy
-
-# Start development server
 npm run dev
-
-# Frontend runs at: http://localhost:3000
-```
-
 ---
 
 ## Environment Variables
@@ -268,4 +238,4 @@ Use a free M0 cluster. Get the connection string and set it as `MONGO_URI`.
 Built for the ServiceHive MERN Internship Assignment.
 
 **Submission email:** ritik.yadav@servicehive.tech  
-**Subject:** MERN Internship Assignment Submission - [Your Name]
+**Subject:** MERN Internship Assignment Submission - [Pushkar mishra]
