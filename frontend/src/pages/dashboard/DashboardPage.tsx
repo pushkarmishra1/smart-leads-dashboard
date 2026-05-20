@@ -17,7 +17,7 @@ const DashboardPage: React.FC = () => {
   // Fetch all leads for stats (no pagination)
   const { data: allLeads, isLoading } = useQuery({
     queryKey: ['dashboard-stats'],
-    queryFn: () => leadsApi.getLeads({ limit: 1000 }),
+    queryFn: () => leadsApi.getLeads({ limit: 100 }),
     staleTime: 60 * 1000,
   });
 
